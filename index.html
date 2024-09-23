@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> reserva.html </title>
+
+    <LINK REL="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Seus dados</legend>
+          <label for="nome">Digite seu nome</label> <input type="text" name="nome" placeholder="Nome" id="nome">
+          <label for="email">Digite seu e-mail</label> <input type="email" name="email" placeholder="E-mail" id="email">
+          </select>
+        </fieldset>
+        <br>
+    
+        <fieldset>
+          <legend>Escolha o serviço desejado
+            
+          </legend>
+          <select name="servico">
+            <option value="Compra de Passagens">Compra de Passagens
+
+            </option>
+            <option value="Reserva de Hospedagem">Reserva de Hospedagem
+
+            </option>
+            <option value="Aluguel de Veículos">Aluguel de Veículos
+
+            </option>
+          </select>
+        </fieldset>
+        <br>
+    
+        <fieldset>
+          <legend>Escolha a forma de pagamento</legend>
+          <label><input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+        </label>
+          <label><input type="radio" name="formaPagamento" value="Boleto">Boleto
+        </label>
+          <label><input type="radio" name="formaPagamento" value="Pix">Pix
+        </label>
+        </fieldset>
+        <br>
+    
+        <fieldset>
+          <legend>Escolha o prazo para pagamento
+
+          </legend>
+          <select name="prazo" >
+            <option value="avista">À vista
+
+            </option>
+            <option value="5x">Em 5x
+
+            </option>
+            <option value="10x">Em 10x com juros
+
+            </option>
+          </select>
+        </fieldset>
+        <br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    
+</body>
+</html>
